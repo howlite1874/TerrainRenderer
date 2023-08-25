@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88484D2F6DDF54613124636F /* x-glfw-debug-x64-clang.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1B9E77E71CB569AE63ACB7 /* x-glfw-debug-x64-clang.lib */; };
+		B68AC1CC0D182C3EE591400C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E21F5234E590246666FCC874 /* main.cpp */; };
+		DF50D797C4E7DEC9882CEDD7 /* common-debug-x64-clang.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE9AE5F89EAC5515131BC9F /* common-debug-x64-clang.lib */; };
+		E82D3D2DCDC4445F9109536D /* x-glew-debug-x64-clang.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EAD5795C8AE6E878FF565D5 /* x-glew-debug-x64-clang.lib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		043E7387EF2A9979371061C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6471AA7E870F7591C61E0E7 /* ../external/x-glm.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0AF5343F27B00752F302983;
+			remoteInfo = "x-glm-debug-x64-clang";
+		};
+		055296B74DC37AE992624CF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFDD61C713F132F907C2B807 /* ../external/x-glfw.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 412BFD983AEDBA0A74ECBBD8;
+			remoteInfo = "x-glfw-debug-x64-clang.lib";
+		};
+		29726E0471E35236B6822444 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DAAF5B59FD4D267D3C5BBF5 /* ../common/common.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DA75B32DB0A516451295172;
+			remoteInfo = "common-debug-x64-clang.lib";
+		};
+		5678E62041650C12894AD460 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6471AA7E870F7591C61E0E7 /* ../external/x-glm.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E9684EC918FA1DBBF4075D09;
+			remoteInfo = "x-glm-debug-x64-clang";
+		};
+		578D09509FFDED82E49CBF90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFDD61C713F132F907C2B807 /* ../external/x-glfw.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 231E827E708178B0E6A078BE;
+			remoteInfo = "x-glfw-debug-x64-clang.lib";
+		};
+		82B69756CB277B880FC64D96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F21BD205362FA3372A012845 /* ../external/x-glew.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 91A021178B61DD89C560DF57;
+			remoteInfo = "x-glew-debug-x64-clang.lib";
+		};
+		D4F109EF1D61EE216200C02F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F21BD205362FA3372A012845 /* ../external/x-glew.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DCCB21D6B2FA84FE14EA85D;
+			remoteInfo = "x-glew-debug-x64-clang.lib";
+		};
+		D737FB6B1FA8DF9D6447B1AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DAAF5B59FD4D267D3C5BBF5 /* ../common/common.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FCCFECCCF691A93E3090AB0C;
+			remoteInfo = "common-debug-x64-clang.lib";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3563341366472C05795F6253 /* main-debug-x64-clang.exe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "main-debug-x64-clang.exe"; path = "main-debug-x64-clang.exe"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DAAF5B59FD4D267D3C5BBF5 /* common-debug-x64-clang.lib */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "common.xcodeproj"; path = ../common/common.xcodeproj; sourceTree = SOURCE_ROOT; };
+		CFDD61C713F132F907C2B807 /* x-glfw-debug-x64-clang.lib */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = x-glfw.xcodeproj; path = "../external/x-glfw.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		D6471AA7E870F7591C61E0E7 /* x-glm-debug-x64-clang */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = x-glm.xcodeproj; path = "../external/x-glm.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		E21F5234E590246666FCC874 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F21BD205362FA3372A012845 /* x-glew-debug-x64-clang.lib */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = x-glew.xcodeproj; path = "../external/x-glew.xcodeproj"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0F01803D081E6F5AB8F2643 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF50D797C4E7DEC9882CEDD7 /* common-debug-x64-clang.lib in Frameworks */,
+				88484D2F6DDF54613124636F /* x-glfw-debug-x64-clang.lib in Frameworks */,
+				E82D3D2DCDC4445F9109536D /* x-glew-debug-x64-clang.lib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7321752FCE62C8A1A1BD136F /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXGroup section */
+		12A709C583EDB7F711E00005 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				E21F5234E590246666FCC874 /* main.cpp */,
+				A6C936B49B3FADE6EA134CF4 /* Products */,
+				9D968EAA920D05DCE0E0A4EA /* Projects */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		208591D60B71B7C853578016 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EAD5795C8AE6E878FF565D5 /* x-glew-debug-x64-clang.lib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33FEA9171EEACF0966D09757 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1B9E77E71CB569AE63ACB7 /* x-glfw-debug-x64-clang.lib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		437A2BE769A05B99D0A75227 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47C52EA82D5C35DAF0A144E8 /* x-glm-debug-x64-clang */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FB0474B7A9C6D3DC282358B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FE9AE5F89EAC5515131BC9F /* common-debug-x64-clang.lib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D968EAA920D05DCE0E0A4EA /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				8DAAF5B59FD4D267D3C5BBF5 /* common.xcodeproj */,
+				CFDD61C713F132F907C2B807 /* x-glfw.xcodeproj */,
+				F21BD205362FA3372A012845 /* x-glew.xcodeproj */,
+				D6471AA7E870F7591C61E0E7 /* x-glm.xcodeproj */,
+			);
+			name = Projects;
+			sourceTree = "<group>";
+		};
+		A6C936B49B3FADE6EA134CF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3563341366472C05795F6253 /* main-debug-x64-clang.exe */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03BB5599C727174B05CABBD9 /* main */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F2B6062BEBD2F5499CA6EA2 /* Build configuration list for PBXNativeTarget "main" */;
+			buildPhases = (
+				10D798A3406967951B76A6E3 /* Resources */,
+				7A84B1FAAA1680EC8523C03A /* Sources */,
+				A0F01803D081E6F5AB8F2643 /* Frameworks */,
+				7321752FCE62C8A1A1BD136F /* Embed Libraries */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D6884546854AA46B03A7294 /* PBXTargetDependency */,
+				21B6E6200CA30C125488D460 /* PBXTargetDependency */,
+				0E3DCEDFF929F4D1410FBD1F /* PBXTargetDependency */,
+				313268F0575898A2BE5F8F30 /* PBXTargetDependency */,
+			);
+			name = main;
+			productInstallPath = "$(HOME)/bin";
+			productName = main;
+			productReference = 3563341366472C05795F6253 /* main-debug-x64-clang.exe */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "main" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 12A709C583EDB7F711E00005 /* main */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8FB0474B7A9C6D3DC282358B /* Products */;
+					ProjectRef = 8DAAF5B59FD4D267D3C5BBF5 /* common.xcodeproj */;
+				},
+				{
+					ProductGroup = 33FEA9171EEACF0966D09757 /* Products */;
+					ProjectRef = CFDD61C713F132F907C2B807 /* x-glfw.xcodeproj */;
+				},
+				{
+					ProductGroup = 208591D60B71B7C853578016 /* Products */;
+					ProjectRef = F21BD205362FA3372A012845 /* x-glew.xcodeproj */;
+				},
+				{
+					ProductGroup = 437A2BE769A05B99D0A75227 /* Products */;
+					ProjectRef = D6471AA7E870F7591C61E0E7 /* x-glm.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				03BB5599C727174B05CABBD9 /* main-debug-x64-clang.exe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		2FE9AE5F89EAC5515131BC9F /* common-debug-x64-clang.lib */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "common-debug-x64-clang.lib";
+			remoteRef = D737FB6B1FA8DF9D6447B1AB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		47C52EA82D5C35DAF0A144E8 /* x-glm-debug-x64-clang */ = {
+			isa = PBXReferenceProxy;
+			fileType = nil;
+			path = "x-glm-debug-x64-clang";
+			remoteRef = 043E7387EF2A9979371061C7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6EAD5795C8AE6E878FF565D5 /* x-glew-debug-x64-clang.lib */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "x-glew-debug-x64-clang.lib";
+			remoteRef = 82B69756CB277B880FC64D96 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8D1B9E77E71CB569AE63ACB7 /* x-glfw-debug-x64-clang.lib */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "x-glfw-debug-x64-clang.lib";
+			remoteRef = 055296B74DC37AE992624CF7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10D798A3406967951B76A6E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A84B1FAAA1680EC8523C03A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B68AC1CC0D182C3EE591400C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E3DCEDFF929F4D1410FBD1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "x-glew-debug-x64-clang.lib";
+			targetProxy = D4F109EF1D61EE216200C02F /* PBXContainerItemProxy */;
+		};
+		21B6E6200CA30C125488D460 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "x-glfw-debug-x64-clang.lib";
+			targetProxy = 578D09509FFDED82E49CBF90 /* PBXContainerItemProxy */;
+		};
+		313268F0575898A2BE5F8F30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "x-glm-debug-x64-clang";
+			targetProxy = 5678E62041650C12894AD460 /* PBXContainerItemProxy */;
+		};
+		7D6884546854AA46B03A7294 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "common-debug-x64-clang.lib";
+			targetProxy = 29726E0471E35236B6822444 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10ADE048A33BAA3A0C144E88 /* debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = ../bin;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = "main-debug-x64-clang.exe";
+			};
+			name = debug;
+		};
+		3A6A2D42A7923BB4A9252B82 /* release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = ../bin;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = "main-release-x64-clang.exe";
+			};
+			name = release;
+		};
+		8A10974EDC96C240AEDB258E /* release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++1z";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"NDEBUG=1",
+					GLEW_STATIC,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OBJROOT = "../_build_/release-x64-clang/x64/release/main";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-march=native",
+					"-Wall",
+					"-pthread",
+				);
+				OTHER_LDFLAGS = (
+					"-lOpenGL32",
+					"-pthread",
+				);
+				SYMROOT = ../bin;
+				USER_HEADER_SEARCH_PATHS = (
+					../external/glfw/include,
+					"../external/glew-1.13.0/include",
+					"../external/glm-0.9.7.1",
+					..,
+				);
+			};
+			name = release;
+		};
+		C06E6814F9292E8688C06654 /* debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++1z";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_DEBUG=1",
+					GLEW_STATIC,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OBJROOT = "../_build_/debug-x64-clang/x64/debug/main";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-march=native",
+					"-Wall",
+					"-pthread",
+				);
+				OTHER_LDFLAGS = (
+					"-lOpenGL32",
+					"-pthread",
+				);
+				SYMROOT = ../bin;
+				USER_HEADER_SEARCH_PATHS = (
+					../external/glfw/include,
+					"../external/glew-1.13.0/include",
+					"../external/glm-0.9.7.1",
+					..,
+				);
+			};
+			name = debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "main" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C06E6814F9292E8688C06654 /* debug */,
+				8A10974EDC96C240AEDB258E /* release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = debug;
+		};
+		8F2B6062BEBD2F5499CA6EA2 /* Build configuration list for PBXNativeTarget "main-debug-x64-clang.exe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10ADE048A33BAA3A0C144E88 /* debug */,
+				3A6A2D42A7923BB4A9252B82 /* release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = debug;
+		};
+/* End XCConfigurationList section */
+};
+rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
